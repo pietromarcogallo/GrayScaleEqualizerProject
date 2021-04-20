@@ -115,7 +115,7 @@ begin
     end if;
 end process;
 
--- Processo che descrive il comportamento della FSM
+
 process (current_state, i_data, i_start, first_scan, got_column, got_line,
          multiplication, reading_address, writing_address, column_num,
          line_num, dimension, current_pixel, min_value, max_value, delta_value, shift,
